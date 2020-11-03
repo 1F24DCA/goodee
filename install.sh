@@ -105,3 +105,12 @@ echo '# FINISHED #'
 echo '############'
 echo ''
 
+echo '#### JAVA VERSION ####'
+java -version
+
+echo '#### TOMCAT VERSION ####'
+/home/ubuntu/tomcat8/bin/version.sh
+
+echo '#### MARIADB VERSION ####'
+mysql -V
+
