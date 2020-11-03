@@ -107,10 +107,13 @@ echo ''
 
 echo '#### JAVA VERSION ####'
 java -version
+echo ''
 
 echo '#### TOMCAT VERSION ####'
 /home/ubuntu/tomcat8/bin/version.sh
+echo ''
 
 echo '#### MARIADB VERSION ####'
 mysql -V
+echo ''
 
