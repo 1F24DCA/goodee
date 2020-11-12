@@ -3,6 +3,6 @@ DIR="$( cd "$( dirname "$BASH_SOURCE" )" && pwd -P )"
 
 sudo service tomcat8 stop
 sudo rm /etc/systemd/system/tomcat8.service
-rm -rf ~/tomcat8
+sudo rm -rf ~/tomcat8
 
 $DIR/../sub/tomcat.sh
