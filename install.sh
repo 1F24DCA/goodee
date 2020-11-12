@@ -24,7 +24,7 @@ echo ''
 
 
 # sub 폴더의 java.sh를 이용하여 자바 설치
-sudo $DIR/sub/java.sh
+$DIR/sub/java.sh
 
 
 echo ''
@@ -35,7 +35,7 @@ echo ''
 
 
 # sub 폴더의 tomcat.sh를 이용하여 자바 설치
-sudo $DIR/sub/tomcat.sh
+$DIR/sub/tomcat.sh
 
 
 echo ''
@@ -46,7 +46,7 @@ echo ''
 
 
 # sub 폴더의 mariadb.sh를 이용하여 자바 설치
-sudo $DIR/sub/mariadb.sh
+$DIR/sub/mariadb.sh
 
 
 echo ''
