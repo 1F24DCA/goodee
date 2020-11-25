@@ -1,12 +1,12 @@
 # Tomcat 다운로드 (압축파일)
-wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39.tar.gz
+wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.40/bin/apache-tomcat-9.0.40.tar.gz
 
 # Tomcat 압축을 풀고 압축파일 삭제
-tar zxvf apache-tomcat-9.0.39.tar.gz
-rm apache-tomcat-9.0.39.tar.gz
+tar zxvf apache-tomcat-9.0.40.tar.gz
+rm apache-tomcat-9.0.40.tar.gz
 
 # Tomcat 폴더 이름을 보기 편하게 변경함
-sudo mv apache-tomcat-9.0.39 /home/ubuntu/tomcat9
+sudo mv apache-tomcat-9.0.40 /home/ubuntu/tomcat9
 
 # Tomcat 서비스 포트 변경 (<Connector port="8080" ... > 변경)
 sudo sed 's/port="8080"/port="80"/g' /home/ubuntu/tomcat9/conf/server.xml > ./server.xml
